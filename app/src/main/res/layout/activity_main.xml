@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+<layout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+    <variable
+        name="myName"
+        type="com.example.aboutme.MyName" />
+        
+    </data>
+
+
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -13,7 +24,7 @@
         style="@style/NameStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/name"
+        android:text="@={myName.name}"
         android:textAlignment="center" />
 
     <EditText
@@ -41,7 +52,9 @@
         style="@style/NameStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:visibility="gone" />
+        android:textAlignment="center"
+        android:visibility="gone"
+        android:text="@={myName.nickname}"/>
 
     <ImageView
         android:id="@+id/star_image"
@@ -61,7 +74,10 @@
             style="@style/NameStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:lineSpacingMultiplier="1.2"
+            android:paddingBottom="8dp"
             android:text="@string/bio" />
     </ScrollView>
 </LinearLayout>
+</layout>
