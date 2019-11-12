@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="name">Madhukesh</string>
+    <string name="yellow_star">yellow Star</string>
+    <string name="bio"> This is Madhukesh.
+    \n\nI m Flutter Developer.
+    \nAnd I m Foodie. I love street food.
+        \nDuring free time I read Novels and also loves travelling.
+        \n\n I recently went on a solo trip to Mumbai.
+          \n\nI m Flutter Developer.
+    \nAnd I m Foodie. I love street food.
+        \nDuring free time I read Novels and also loves travelling.
+        \n\n I recently went on a solo trip to Mumbai.
+          \n\nI m Flutter Developer.
+    \nAnd I m Foodie. I love street food.
+        \nDuring free time I read Novels and also loves travelling.
+        \n\n I recently went on a solo trip to Mumbai.
+    </string>
+    <string name="what_is_your_nickname">What is your Nickname?</string>
+    <string name="done">Done</string>
+</resources>
